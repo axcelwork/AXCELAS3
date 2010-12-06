@@ -13,7 +13,7 @@ package org.shift_style.utils.filters {
 	 */
 	public class ExDropShadowFilter{
 		public static var _instance:ExDropShadowFilter;
-		private var _filter:DropShadowFilter = new DropShadowFilter()
+		private var _filter:DropShadowFilter = new DropShadowFilter();
 		
 		/**
 		 * 新しい DropShadow インスタンスを作成します

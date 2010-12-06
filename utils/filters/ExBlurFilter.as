@@ -13,7 +13,7 @@ package org.shift_style.utils.filters {
 	 */
 	public class ExBlurFilter{
 		public static var _instance:ExBlurFilter;
-		private var _filter:BlurFilter = new BlurFilter()
+		private var _filter:BlurFilter = new BlurFilter();
 		
 		/**
 		 * 新しい ExBlurFilter インスタンスを作成します

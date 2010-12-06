@@ -13,7 +13,7 @@ package org.shift_style.utils.filters {
 	 */
 	public class ExGlowFilter{
 		public static var _instance:GlowFilter;
-		private var _filter:GlowFilter = new GlowFilter()
+		private var _filter:GlowFilter = new GlowFilter();
 		
 		/**
 		 * 新しい ExGlowFilter インスタンスを作成します

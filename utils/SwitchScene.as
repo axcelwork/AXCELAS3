@@ -1,22 +1,16 @@
 ﻿package org.shift_style.utils {
 	import jp.progression.casts.*;
+	import jp.progression.commands.*;
 	import jp.progression.commands.display.*;
 	import jp.progression.commands.lists.*;
 	import jp.progression.commands.managers.*;
-	import jp.progression.commands.media.*;
-	import jp.progression.commands.net.*;
 	import jp.progression.commands.tweens.*;
-	import jp.progression.commands.*;
-	import jp.progression.data.*;
-	import jp.progression.events.*;
-	import jp.progression.executors.*;
 	import jp.progression.scenes.*;
-	
+
 	import flash.display.Sprite;
 	import flash.display.Stage;
-	import flash.events.MouseEvent;
 	import flash.events.KeyboardEvent;
-	
+
 	/**
 	 * Progressionのシーン移動が簡単に行えるクラスです.
 	 * 
@@ -247,13 +241,12 @@
 	}
 }
 
-
 import jp.progression.scenes.*;
-import flash.display.Sprite;
-import flash.filters.DropShadowFilter;
 
 import org.shift_style.text.ExTextField;
 
+import flash.display.Sprite;
+import flash.filters.DropShadowFilter;
 
 class SceneBox extends Sprite {
 	public var _sceneID:SceneId;

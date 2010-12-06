@@ -77,7 +77,7 @@ package org.shift_style.net {
 			}
 			
 			this._request = new URLRequest(this._host);
-			this._request.data = vers;
+			this._request.data = this._vers;
 			
 			return this._request;
 		}

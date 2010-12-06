@@ -1,4 +1,4 @@
-package utils {   
+package org.shift_style.crypto {   
 	import flash.utils.ByteArray;   
 	
 	

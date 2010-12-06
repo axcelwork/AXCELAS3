@@ -1,18 +1,11 @@
 package org.shift_style.commands.display {
-	import jp.progression.casts.*;
+	import jp.progression.commands.*;
 	import jp.progression.commands.display.*;
 	import jp.progression.commands.lists.*;
-	import jp.progression.commands.managers.*;
-	import jp.progression.commands.media.*;
-	import jp.progression.commands.net.*;
-	import jp.progression.commands.tweens.*;
-	import jp.progression.commands.*;
-	import jp.progression.data.*;
 	import jp.progression.events.*;
-	import jp.progression.scenes.*;
-	
+
 	import flash.display.DisplayObjectContainer;
-	
+
 	/**
 	 * RemoveChildren を書き連ねていくのが面倒という自分に対して制作したProgression用クラスです.
 	 * 
