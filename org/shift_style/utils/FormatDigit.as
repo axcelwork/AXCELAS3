@@ -19,10 +19,10 @@ package org.shift_style.utils {
 		 */
 		public static function atFormatNum(n:Number, digit:Number):String{
 			var s:String = String(n);
-            while (s.length < digit) {
-                s = "0" + s;
-            }
-            return s;
+			while (s.length < digit) {
+				s = "0" + s;
+			}
+			return s;
 		}
 	}
 }
