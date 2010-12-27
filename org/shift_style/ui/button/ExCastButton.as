@@ -1,22 +1,11 @@
 package org.shift_style.ui.button {
 	import jp.progression.casts.*;
 	import jp.progression.commands.display.*;
-	import jp.progression.commands.lists.*;
-	import jp.progression.commands.managers.*;
-	import jp.progression.commands.media.*;
-	import jp.progression.commands.net.*;
-	import jp.progression.commands.tweens.*;
-	import jp.progression.commands.*;
-	import jp.progression.data.*;
-	import jp.progression.events.*;
 	import jp.progression.scenes.*;
-	
+
 	import flash.display.MovieClip;
-	import flash.display.Shape;
 	import flash.external.ExternalInterface;
-	
-	import jp.ikekou.net.urlopener.*;
-	
+
 	/**
 	 * ExCastButton.
 	 *

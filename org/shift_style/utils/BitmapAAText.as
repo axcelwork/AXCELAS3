@@ -1,15 +1,13 @@
 package org.shift_style.utils {
-	import flash.display.Bitmap;
 	import flash.display.BitmapData;
-	import flash.geom.Matrix;
-	import flash.geom.ColorTransform;
 	import flash.filters.BlurFilter;
-	
-	import flash.utils.getTimer;
-	import flash.text.TextField;
-	import flash.geom.Rectangle;
+	import flash.geom.ColorTransform;
+	import flash.geom.Matrix;
 	import flash.geom.Point;
-	
+	import flash.geom.Rectangle;
+	import flash.text.TextField;
+	import flash.utils.getTimer;
+
 	/**
 	 * ...
 	 * @author axcel-work
