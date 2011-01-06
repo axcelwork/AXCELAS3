@@ -29,18 +29,11 @@ package org.shift_style.debug.inspector {
 		private static var frame:Sprite;
 		private static var txt:ExTextField;
 		private static var bg:Sprite;
-		private static var uiPanel:DisplayInspectorPanel;
 		
 		private static var STStage:Stage;
 		private static var _name:String;
-		private static var _stack:String = "";
 		private static var isShow:Boolean = false;
 		private static var isInit:Boolean = false;
-		
-		
-		// Cnfig
-		private static var isSize:Boolean = false;
-		private static var isPosition:Boolean = false;
 		
 		private static var confingPanel:DisplayInspectorPanel;
 		

@@ -1,4 +1,5 @@
 package org.shift_style.utils {
+	import flash.text.TextField;
 	import flash.text.TextFormat;
 	
 	/**
@@ -31,10 +32,10 @@ package org.shift_style.utils {
 				}
 				
 				if ( ary[ i ] == "" ) {
-					ary[ i ].defaultTextFormat = _tf;
+					TextField(ary[ i ]).defaultTextFormat = _tf;
 				}
 				else {
-					ary[ i ].setTextFormat( _tf );
+					TextField(ary[ i ]).setTextFormat( _tf );
 				}
 			}
 		}
